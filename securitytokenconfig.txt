@@ -1,0 +1,75 @@
+PS C:\Users\C.SP16EMNUAFARM0.5> Get-SPSecurityTokenServiceConfig
+
+
+SecurityTokenServicePublicUrlSuffix         : /_vti_bin/spsecuritytokenservicea
+                                              ctive.svc
+SecurityTokenServiceMetadataPublicUrlSuffix : /_vti_bin/spsecuritytokenservicea
+                                              ctive.svc/mex
+LocalLoginProvider                          : SPLocalLoginProvider
+                                              Name=SharePoint
+TrustedLoginProviderNames                   : {EYAAD, EYDMZAAD}
+TrustedLoginProviders                       : {EYAAD, EYDMZAAD}
+TrustedAccessProviders                      : {}
+TrustedSecurityTokenServices                : {00000005-0000-0000-c000-00000000
+                                              0000, EYAbsolute UAT High Trust
+                                              Certificate, workflow.service}
+DefaultTrustedSecurityTokenIssuer           :
+AuthenticationPipelineClaimMappingRules     : {WindowsMappingRule}
+AllowMetadataOverHttp                       : False
+UseSessionCookies                           : False
+WindowsTokenLifetime                        : 00:25:00
+FormsTokenLifetime                          : 00:25:00
+CookieLifetime                              : 00:30:00
+CookieLifetimeRefreshWindow                 : 00:28:00
+ServiceTokenLifetime                        : 10:00:00
+MaxLogonTokenCacheItems                     : 1500
+MaxLogonTokenOptimisticCacheItems           : 100000
+LogonTokenCacheExpirationWindow             : 00:10:00
+MaxServiceTokenCacheItems                   : 250
+MaxServiceTokenOptimisticCacheItems         : 100000
+ServiceTokenCacheExpirationWindow           : 00:10:00
+ApplicationTokenLifetime                    : 1.12:00:00
+AuthenticatorTokenLifetime                  : 1.12:00:00
+MinApplicationTokenCacheItems               : 250
+MaxApplicationTokenCacheItems               : 100000
+ApplicationTokenCacheExpirationWindow       : 00:10:00
+ImplicitFlowTokenLifetime                   : 30.00:00:00
+LoopbackTokenLifetime                       : 10:00:00
+ProofTokenLifetime                          : 1.00:00:00
+IdentityTokenLifetime                       : 00:20:00
+SuppressModernAuthForOfficeClients          : True
+ActivateOkResponseToCORSOptions             : False
+AllowOAuthOverHttp                          : True
+BypassIdentityProviderForAppWebs            : True
+CookieValueHandlerType                      : Microsoft.SharePoint.IdentityMode
+                                              l.SPSessionSecurityTokenCookieVal
+                                              ue
+NameIdentifier                              : 00000003-0000-0ff1-ce00-000000000
+                                              000@6a55c172-ed5d-48b2-b6a9-dceb1
+                                              c8cae05
+PidEnabled                                  : True
+HybridStsSelectionEnabled                   : True
+WindowsModeIgnoreCache                      : False
+Name                                        : SecurityTokenServiceManager
+TypeName                                    : Microsoft.SharePoint.Administrati
+                                              on.Claims.SPSecurityTokenServiceM
+                                              anager
+DisplayName                                 : SecurityTokenServiceManager
+Id                                          : 60931c49-9be1-4deb-a037-17bc34adc
+                                              6a7
+Status                                      : Online
+Parent                                      : SPSecurityTokenService
+                                              Name=SecurityTokenService
+Version                                     : 9658658
+DeploymentLocked                            : False
+Properties                                  : {}
+Farm                                        : SPFarm Name=SP_UXA_AZ05_Config
+UpgradedPersistedProperties                 : {}
+CanSelectForBackup                          : True
+DiskSizeRequired                            : 0
+CanSelectForRestore                         : True
+CanRenameOnRestore                          : False
+
+
+
+PS C:\Users\C.SP16EMNUAFARM0.5>
